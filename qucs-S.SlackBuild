@@ -27,7 +27,7 @@ exit 1;
 fi
 
 cd $SRCDIR
-cmake .
+cmake . -DCMAKE_INSTALL_PREFIX=/usr
 make
 
 if [ $? -ne 0 ] 
