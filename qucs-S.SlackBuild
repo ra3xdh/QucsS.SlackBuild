@@ -1,15 +1,14 @@
 #!/bin/sh
 PKGNAM=qucs-S
-VERSION=0.0.19
-EXTRAVERSION=S
+VERSION=0.0.20
+EXTRAVERSION=
 ARCH=`uname -m`
 BUILD=${BUILD:-1}
 CWD=`pwd`
 TMP="/tmp/"
 PKG=$TMP/package-$PKGNAM
-SRCDIR=$PKG/qucs-${VERSION}${EXTRAVERSION}
+SRCDIR=$PKG/qucs-s-${VERSION}${EXTRAVERSION}
 OUTPUT=$PKG/qucs-build
-DEST=/opt/openEMS/
 
 set -e
 rm -rf $PKG
@@ -17,8 +16,8 @@ mkdir $PKG
 cd $PKG
 rm -rf $SRCDIR
 rm -rf $OUTPUT
-wget -c https://github.com/ra3xdh/qucs/releases/download/0.0.19S/qucs-0.0.19S.tar.gz
-tar xvfz qucs-0.0.19S.tar.gz
+wget -c https://github.com/ra3xdh/qucs_s/releases/download/0.0.20/qucs-s-0.0.20.tar.gz
+tar xvfz qucs-s-0.0.20.tar.gz
 
 if [ $? -ne 0 ]
 then

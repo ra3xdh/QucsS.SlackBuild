@@ -1,6 +1,6 @@
-SlackBuild for Qucs-S package
+## SlackBuild for Qucs-S package
 
-###Usage:
+### Usage:
 
 * Clone this repository:
 
@@ -8,7 +8,7 @@ SlackBuild for Qucs-S package
 git clone https://github.com/ra3xdh/QucsS.SlackBuild
 ~~~
 
-* Run SlackBuild as root:
+* Run SlackBuild as `root`:
 
 ~~~
 cd QucsS.S.SlackBuild
