@@ -1,4 +1,4 @@
-Qucs-S: Qucs-S 0.0.19S Qucs-S ciruit simulator  
+Qucs-S: Qucs-S 0.0.21 Qucs-S ciruit simulator  
 Qucs-S:  
 Qucs-S: Qucs-S is Qucs extension that allows to direcly use SPICE simulation 
 Qucs-S: backends and SPICE-compatible components and libraries. Such as: 

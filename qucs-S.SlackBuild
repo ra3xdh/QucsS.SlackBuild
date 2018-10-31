@@ -1,6 +1,6 @@
 #!/bin/sh
 PKGNAM=qucs-S
-VERSION=0.0.20
+VERSION=0.0.21
 EXTRAVERSION=
 ARCH=`uname -m`
 BUILD=${BUILD:-1}
@@ -16,8 +16,8 @@ mkdir $PKG
 cd $PKG
 rm -rf $SRCDIR
 rm -rf $OUTPUT
-wget -c https://github.com/ra3xdh/qucs_s/releases/download/0.0.20/qucs-s-0.0.20.tar.gz
-tar xvfz qucs-s-0.0.20.tar.gz
+wget -c https://github.com/ra3xdh/qucs_s/releases/download/0.0.21/qucs-s-0.0.21.tar.gz
+tar xvfz qucs-s-0.0.21.tar.gz
 
 if [ $? -ne 0 ]
 then
