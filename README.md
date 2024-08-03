@@ -1,3 +1,7 @@
+## Important info
+
+This repository contains an outdated SlackBuild and archived. Use the version from official SlackBuilds reposistory instead: https://slackbuilds.org/repository/15.0/academic/qucs-s/?search=qucs-s
+
 ## SlackBuild for Qucs-S package
 
 ### Usage:
